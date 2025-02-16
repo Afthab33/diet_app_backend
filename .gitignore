@@ -1,0 +1,29 @@
+venv/
+.env
+__pycache__/
+
+# Django cache and compiled files
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Static and media files (if using Django's collectstatic)
+staticfiles/
+media/
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore MacOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Render/Heroku deployment files (if applicable)
+*.envrc
+backend/__pycache__/settings.cpython-311.pyc
+backend/__pycache__/settings.cpython-311.pyc
