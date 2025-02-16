@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import home
+from .views import generate_diet
 
 urlpatterns = [
-    path('', home),
+    path("generate-diet/", generate_diet, name="generate_diet"),
 ]
