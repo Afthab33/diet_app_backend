@@ -6,3 +6,4 @@ python-dotenv==1.0.1
 certifi==2025.1.31
 tqdm==4.67.1
 pydantic==2.10.6
+django-cors-headers==4.3.1
