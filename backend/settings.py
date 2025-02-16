@@ -87,13 +87,13 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://diet-plan-app-git-main-afthab33s-projects.vercel.app",
-    "https://diet-plan-app-woad.vercel.app/",
+    "https://diet-plan-app-woad.vercel.app",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
     "https://diet-plan-app-git-main-afthab33s-projects.vercel.app",
-    "https://diet-plan-app-woad.vercel.app/",
+    "https://diet-plan-app-woad.vercel.app",
 ]
 
 CORS_ALLOW_METHODS = ["GET", "POST", "OPTIONS"]
