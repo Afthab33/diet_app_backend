@@ -10,7 +10,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", "django-insecure-y)n^r^nn-sk$or58#xc=4bg!i4
 
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ["your-app-name.onrender.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["https://diet-gpt-backend-8bzp.onrender.com", "127.0.0.1", "localhost"]
 
 
 # Application definition
