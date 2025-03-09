@@ -80,7 +80,7 @@ def generate_diet(request):
 
     try:
         response = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": "You are a professional nutritionist. Respond with JSON only."},
                 {"role": "user", "content": prompt}
